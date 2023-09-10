@@ -127,11 +127,8 @@ fun SimpleCircularProgressComponent() {
         // below line is use to display
         // a circular progress bar.
         CircularProgressIndicator(
-
             modifier = Modifier.padding(16.dp),
             color = Color(android.graphics.Color.parseColor("#FF8200")),
-
-
             strokeWidth = Dp(value = 4F)
         )
     }
